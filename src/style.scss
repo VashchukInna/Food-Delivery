@@ -1,0 +1,13 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@import './components/menu/menu.scss';
+@import './pages/home/home.page.scss';
+@import './pages/menu/menu.page.scss';
+@import './pages/contacts/contacts.page.scss';
+@import './pages/login/login.page.scss';
+@import './pages/admin/admin.page.scss';

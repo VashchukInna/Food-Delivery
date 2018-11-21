@@ -1,0 +1,73 @@
+[
+  {
+    "path": "#/",
+    "accessByExecutants": "adminAndUser"
+  },
+  {
+    "path": "#/aboutus",
+    "accessByExecutants": [
+      "unauthorized",
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "path": "#/menu",
+    "accessByExecutants": [
+      "unauthorized",
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "path": "#/combo",
+    "accessByExecutants": [
+      "unauthorized",
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "path": "#/createyourlunch",
+    "accessByExecutants": [
+      "unauthorized",
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "path": "#/contacts",
+    "accessByExecutants": [
+      "unauthorized",
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "path": "#/cart",
+    "accessByExecutants": [
+      "unauthorized",
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "path": "#/admin",
+    "accessByExecutants": [
+      "admin"
+    ]
+  },
+  {
+    "path": "#/login",
+    "accessByExecutants": [
+      "unauthorized"
+    ]
+  },
+  {
+    "path": "#/logout",
+    "accessByExecutants": [
+      "admin",
+      "user"
+    ]
+  }
+]
