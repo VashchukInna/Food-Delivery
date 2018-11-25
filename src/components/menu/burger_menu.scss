@@ -7,6 +7,7 @@
     text-align: center;
     height: 40px;
     z-index: 3;
+
     .check-menu {
       display: block;
       position: absolute;
@@ -16,22 +17,28 @@
       height: 100%;
       line-height: 40px;
     }
+
     #check-menu:checked ~ .main-menu {
       max-height: 1300px;
       font-size: 16px;
     }
+
     #check-menu:checked ~ .first {
       display: none;
     }
+
     #check-menu:checked ~ .second {
       transform: rotate(45deg);
     }
+
     #check-menu:checked ~ .third {
       transform: rotate(-45deg);
     }
+
     #check-menu:checked ~ .fourth {
       display: none;
     }
+
     .burger-line {
       position: absolute;
       top: 18px;
@@ -41,12 +48,15 @@
       background-color: #fff;
       transition: .5s all;
     }
+
     .second, .third {
       top: 28px;
     }
+
     .fourth {
       top: 38px;
     }
+
     .main-menu {
       display: block;
       position: absolute;
@@ -59,9 +69,11 @@
       overflow: hidden;
       transition: .5s all;
     }
+
     #user-menu {
       margin-top: 0;
       width: 902px;
+
       & li a {
         display: block;
         width: 904px;
@@ -69,7 +81,8 @@
         border-top: 1px solid #209A9C;
         background-color: #000;
         font-size: 130%;
-        &:visited, & {
+
+        &:visited{
           color: #ffffff;
         }
       }

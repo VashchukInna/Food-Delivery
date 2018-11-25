@@ -1,326 +1,326 @@
 [
-    {
-        "id": 1,
-        "name": "Wonton Noodle Soup",
-        "cost": 5.25,
-        "image": "/images/dishes/chinese/chinese_1.png",
-        "day-of-the-week": "monday",
-        "type-of-dish": "soup",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 2,
-        "name": "Hot and Sour Soup",
-        "cost": 5.25,
-        "image": "/images/dishes/chinese/chinese_2.png",
-        "day-of-the-week": "",
-        "type-of-dish": "soup",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 3,
-        "name": "Noodle Soup",
-        "cost": 6.25,
-        "image": "/images/dishes/chinese/chinese_3.png",
-        "day-of-the-week": "tuesday",
-        "type-of-dish": "soup",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 4,
-        "name": "Vegetable Soup",
-        "cost": 6.25,
-        "image": "/images/dishes/chinese/chinese_4.png",
-        "day-of-the-week": "",
-        "type-of-dish": "soup",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 5,
-        "name": "Chicken Yee Won Ton Soup",
-        "cost": 4.75,
-        "image": "/images/dishes/chinese/chinese_5.png",
-        "day-of-the-week": "wednesday",
-        "type-of-dish": "soup",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 6,
-        "name": "BBQ Pork Lo Mein",
-        "cost": 7.75,
-        "image": "/images/dishes/chinese/chinese_6.png",
-        "day-of-the-week": "thursday",
-        "type-of-dish": "main",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 7,
-        "name": "Beef Chow Mein",
-        "cost": 8.25,
-        "image": "/images/dishes/chinese/chinese_7.png",
-        "day-of-the-week": "friday",
-        "type-of-dish": "main",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 8,
-        "name": "Shrimp Chow Mein",
-        "cost": 7.35,
-        "image": "/images/dishes/chinese/chinese_8.png",
-        "day-of-the-week": "",
-        "type-of-dish": "main",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 9,
-        "name": "Beef Chow Mein",
-        "cost": 6.55,
-        "image": "/images/dishes/chinese/chinese_9.png",
-        "day-of-the-week": "saturday",
-        "type-of-dish": "main",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 10,
-        "name": "Shrimp Fried Rice",
-        "cost": 6.95,
-        "image": "/images/dishes/chinese/chinese_10.png",
-        "day-of-the-week": "",
-        "type-of-dish": "main",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 11,
-        "name": "Vegan Rice Noodle Chinese Salad",
-        "cost": 6.15,
-        "image": "/images/dishes/chinese/chinese_11.png",
-        "day-of-the-week": "sunday",
-        "type-of-dish": "salad",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 12,
-        "name": "Oriental Chicken Salad",
-        "cost": 6.35,
-        "image": "/images/dishes/chinese/chinese_12.png",
-        "day-of-the-week": "",
-        "type-of-dish": "salad",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 13,
-        "name": "Grilled Chicken and Tomato Salad",
-        "cost": 7.35,
-        "image": "/images/dishes/chinese/chinese_13.png",
-        "day-of-the-week": "",
-        "type-of-dish": "salad",
-        "cuisine": "chinese"
-    },
-    {
-        "id": 14,
-        "name": "Borsch",
-        "cost": 3.25,
-        "image": "/images/dishes/ukrainian/ukrainian_1.png",
-        "day-of-the-week": "monday",
-        "type-of-dish": "soup",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 14,
-        "name": "Vegetable soup with chicken",
-        "cost": 2.15,
-        "image": "/images/dishes/ukrainian/ukrainian_2.png",
-        "day-of-the-week": "",
-        "type-of-dish": "soup",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 15,
-        "name": "Solyanka",
-        "cost": 2.27,
-        "image": "/images/dishes/ukrainian/ukrainian_3.png",
-        "day-of-the-week": "",
-        "type-of-dish": "soup",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 16,
-        "name": "Kyiv kotlet with vegetables",
-        "cost": 2.89,
-        "image": "/images/dishes/ukrainian/ukrainian_4.png",
-        "day-of-the-week": "tuesday",
-        "type-of-dish": "main",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 17,
-        "name": "Baked salmon with rice",
-        "cost": 4.33,
-        "image": "/images/dishes/ukrainian/ukrainian_5.png",
-        "day-of-the-week": "wednesday",
-        "type-of-dish": "main",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 18,
-        "name": "Homemade sausage with potatoes",
-        "cost": 5.35,
-        "image": "/images/dishes/ukrainian/ukrainian_6.png",
-        "day-of-the-week": "thursday",
-        "type-of-dish": "main",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 19,
-        "name": "Golubtsi",
-        "cost": 4.35,
-        "image": "/images/dishes/ukrainian/ukrainian_7.png",
-        "day-of-the-week": "friday",
-        "type-of-dish": "main",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 20,
-        "name": "Varenyky",
-        "cost": 4.35,
-        "image": "/images/dishes/ukrainian/ukrainian_8.png",
-        "day-of-the-week": "friday",
-        "type-of-dish": "main",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 21,
-        "name": "Vinaigrette",
-        "cost": 3.35,
-        "image": "/images/dishes/ukrainian/ukrainian_9.png",
-        "day-of-the-week": "friday",
-        "type-of-dish": "salad",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 22,
-        "name": "Herring under the fur coat",
-        "cost": 3.35,
-        "image": "/images/dishes/ukrainian/ukrainian_10.png",
-        "day-of-the-week": "saturday",
-        "type-of-dish": "salad",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 23,
-        "name": "Red Beet Salad",
-        "cost": 3.35,
-        "image": "/images/dishes/ukrainian/ukrainian_11.png",
-        "day-of-the-week": "",
-        "type-of-dish": "salad",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 24,
-        "name": "Cabbage salad",
-        "cost": 3.35,
-        "image": "/images/dishes/ukrainian/ukrainian_12.png",
-        "day-of-the-week": "sunday",
-        "type-of-dish": "salad",
-        "cuisine": "ukrainian"
-    },
-    {
-        "id": 25,
-        "name": "Bagnun",
-        "cost": 3.35,
-        "image": "/images/dishes/italian/italian_1.png",
-        "day-of-the-week": "monday",
-        "type-of-dish": "soup",
-        "cuisine": "italian"
-    },
-    {
-        "id": 26,
-        "name": "Ginestrata",
-        "cost": 3.15,
-        "image": "/images/dishes/italian/italian_2.png",
-        "day-of-the-week": "",
-        "type-of-dish": "soup",
-        "cuisine": "italian"
-    },
-    {
-        "id": 27,
-        "name": "Minestrone",
-        "cost": 3.15,
-        "image": "/images/dishes/italian/italian_3.png",
-        "day-of-the-week": "tuesday",
-        "type-of-dish": "soup",
-        "cuisine": "italian"
-    },
-    {
-        "id": 28,
-        "name": "Pasta Carbonara",
-        "cost": 3.25,
-        "image": "/images/dishes/italian/italian_4.png",
-        "day-of-the-week": "wednesday",
-        "type-of-dish": "main pasta",
-        "cuisine": "italian"
-    },
-    {
-        "id": 29,
-        "name": "Pasta Bolognese",
-        "cost": 3.85,
-        "image": "/images/dishes/italian/italian_5.png",
-        "day-of-the-week": "thursday",
-        "type-of-dish": "main pasta",
-        "cuisine": "italian"
-    },
-    {
-        "id": 30,
-        "name": "Margherita Pizza",
-        "cost": 6.25,
-        "image": "/images/dishes/italian/italian_6.png",
-        "day-of-the-week": "friday",
-        "type-of-dish": "main pizza",
-        "cuisine": "italian"
-    },
-    {
-        "id": 31,
-        "name": "Caprese Pizza",
-        "cost": 5.25,
-        "image": "/images/dishes/italian/italian_7.png",
-        "day-of-the-week": "saturday",
-        "type-of-dish": "main pizza",
-        "cuisine": "italian"
-    },
-    {
-        "id": 32,
-        "name": "Capricciosa PIzza",
-        "cost": 6.15,
-        "image": "/images/dishes/italian/italian_8.png",
-        "day-of-the-week": "",
-        "type-of-dish": "main pizza",
-        "cuisine": "italian"
-    },
-    {
-        "id": 33,
-        "name": "Caprese Salad",
-        "cost": 5.15,
-        "image": "/images/dishes/italian/italian_9.png",
-        "day-of-the-week": "sunday",
-        "type-of-dish": "salad",
-        "cuisine": "italian"
-    },
-    {
-        "id": 34,
-        "name": "Tomato-Basil Salad",
-        "cost": 4.75,
-        "image": "/images/dishes/italian/italian_10.png",
-        "day-of-the-week": "",
-        "type-of-dish": "salad",
-        "cuisine": "italian"
-    },
-    {
-        "id": 35,
-        "name": "Panzanella Salad",
-        "cost": 4.55,
-        "image": "/images/dishes/italian/italian_11.png",
-        "day-of-the-week": "",
-        "type-of-dish": "salad",
-        "cuisine": "italian"
-    }
+  {
+    "id": 1,
+    "name": "Wonton Noodle Soup",
+    "cost": 5.25,
+    "image": "/images/dishes/chinese/chinese_1.png",
+    "day-of-the-week": "monday",
+    "type-of-dish": "soup",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 2,
+    "name": "Hot and Sour Soup",
+    "cost": 5.25,
+    "image": "/images/dishes/chinese/chinese_2.png",
+    "day-of-the-week": "",
+    "type-of-dish": "soup",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 3,
+    "name": "Noodle Soup",
+    "cost": 6.25,
+    "image": "/images/dishes/chinese/chinese_3.png",
+    "day-of-the-week": "tuesday",
+    "type-of-dish": "soup",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 4,
+    "name": "Vegetable Soup",
+    "cost": 6.25,
+    "image": "/images/dishes/chinese/chinese_4.png",
+    "day-of-the-week": "",
+    "type-of-dish": "soup",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Yee Won Ton Soup",
+    "cost": 4.75,
+    "image": "/images/dishes/chinese/chinese_5.png",
+    "day-of-the-week": "wednesday",
+    "type-of-dish": "soup",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 6,
+    "name": "BBQ Pork Lo Mein",
+    "cost": 7.75,
+    "image": "/images/dishes/chinese/chinese_6.png",
+    "day-of-the-week": "thursday",
+    "type-of-dish": "main",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 7,
+    "name": "Beef Chow Mein",
+    "cost": 8.25,
+    "image": "/images/dishes/chinese/chinese_7.png",
+    "day-of-the-week": "friday",
+    "type-of-dish": "main",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 8,
+    "name": "Shrimp Chow Mein",
+    "cost": 7.35,
+    "image": "/images/dishes/chinese/chinese_8.png",
+    "day-of-the-week": "",
+    "type-of-dish": "main",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 9,
+    "name": "Beef Chow Mein",
+    "cost": 6.55,
+    "image": "/images/dishes/chinese/chinese_9.png",
+    "day-of-the-week": "saturday",
+    "type-of-dish": "main",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 10,
+    "name": "Shrimp Fried Rice",
+    "cost": 6.95,
+    "image": "/images/dishes/chinese/chinese_10.png",
+    "day-of-the-week": "",
+    "type-of-dish": "main",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 11,
+    "name": "Vegan Rice Noodle Chinese Salad",
+    "cost": 6.15,
+    "image": "/images/dishes/chinese/chinese_11.png",
+    "day-of-the-week": "sunday",
+    "type-of-dish": "salad",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 12,
+    "name": "Oriental Chicken Salad",
+    "cost": 6.35,
+    "image": "/images/dishes/chinese/chinese_12.png",
+    "day-of-the-week": "",
+    "type-of-dish": "salad",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 13,
+    "name": "Grilled Chicken and Tomato Salad",
+    "cost": 7.35,
+    "image": "/images/dishes/chinese/chinese_13.png",
+    "day-of-the-week": "",
+    "type-of-dish": "salad",
+    "cuisine": "chinese"
+  },
+  {
+    "id": 14,
+    "name": "Borsch",
+    "cost": 3.25,
+    "image": "/images/dishes/ukrainian/ukrainian_1.png",
+    "day-of-the-week": "monday",
+    "type-of-dish": "soup",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 14,
+    "name": "Vegetable soup with chicken",
+    "cost": 2.15,
+    "image": "/images/dishes/ukrainian/ukrainian_2.png",
+    "day-of-the-week": "",
+    "type-of-dish": "soup",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 15,
+    "name": "Solyanka",
+    "cost": 2.27,
+    "image": "/images/dishes/ukrainian/ukrainian_3.png",
+    "day-of-the-week": "",
+    "type-of-dish": "soup",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 16,
+    "name": "Kyiv kotlet with vegetables",
+    "cost": 2.89,
+    "image": "/images/dishes/ukrainian/ukrainian_4.png",
+    "day-of-the-week": "tuesday",
+    "type-of-dish": "main",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 17,
+    "name": "Baked salmon with rice",
+    "cost": 4.33,
+    "image": "/images/dishes/ukrainian/ukrainian_5.png",
+    "day-of-the-week": "wednesday",
+    "type-of-dish": "main",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 18,
+    "name": "Homemade sausage with potatoes",
+    "cost": 5.35,
+    "image": "/images/dishes/ukrainian/ukrainian_6.png",
+    "day-of-the-week": "thursday",
+    "type-of-dish": "main",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 19,
+    "name": "Golubtsi",
+    "cost": 4.35,
+    "image": "/images/dishes/ukrainian/ukrainian_7.png",
+    "day-of-the-week": "friday",
+    "type-of-dish": "main",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 20,
+    "name": "Varenyky",
+    "cost": 4.35,
+    "image": "/images/dishes/ukrainian/ukrainian_8.png",
+    "day-of-the-week": "friday",
+    "type-of-dish": "main",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 21,
+    "name": "Vinaigrette",
+    "cost": 3.35,
+    "image": "/images/dishes/ukrainian/ukrainian_9.png",
+    "day-of-the-week": "friday",
+    "type-of-dish": "salad",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 22,
+    "name": "Herring under the fur coat",
+    "cost": 3.35,
+    "image": "/images/dishes/ukrainian/ukrainian_10.png",
+    "day-of-the-week": "saturday",
+    "type-of-dish": "salad",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 23,
+    "name": "Red Beet Salad",
+    "cost": 3.35,
+    "image": "/images/dishes/ukrainian/ukrainian_11.png",
+    "day-of-the-week": "",
+    "type-of-dish": "salad",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 24,
+    "name": "Cabbage salad",
+    "cost": 3.35,
+    "image": "/images/dishes/ukrainian/ukrainian_12.png",
+    "day-of-the-week": "sunday",
+    "type-of-dish": "salad",
+    "cuisine": "ukrainian"
+  },
+  {
+    "id": 25,
+    "name": "Bagnun",
+    "cost": 3.35,
+    "image": "/images/dishes/italian/italian_1.png",
+    "day-of-the-week": "monday",
+    "type-of-dish": "soup",
+    "cuisine": "italian"
+  },
+  {
+    "id": 26,
+    "name": "Ginestrata",
+    "cost": 3.15,
+    "image": "/images/dishes/italian/italian_2.png",
+    "day-of-the-week": "",
+    "type-of-dish": "soup",
+    "cuisine": "italian"
+  },
+  {
+    "id": 27,
+    "name": "Minestrone",
+    "cost": 3.15,
+    "image": "/images/dishes/italian/italian_3.png",
+    "day-of-the-week": "tuesday",
+    "type-of-dish": "soup",
+    "cuisine": "italian"
+  },
+  {
+    "id": 28,
+    "name": "Pasta Carbonara",
+    "cost": 3.25,
+    "image": "/images/dishes/italian/italian_4.png",
+    "day-of-the-week": "wednesday",
+    "type-of-dish": "main pasta",
+    "cuisine": "italian"
+  },
+  {
+    "id": 29,
+    "name": "Pasta Bolognese",
+    "cost": 3.85,
+    "image": "/images/dishes/italian/italian_5.png",
+    "day-of-the-week": "thursday",
+    "type-of-dish": "main pasta",
+    "cuisine": "italian"
+  },
+  {
+    "id": 30,
+    "name": "Margherita Pizza",
+    "cost": 6.25,
+    "image": "/images/dishes/italian/italian_6.png",
+    "day-of-the-week": "friday",
+    "type-of-dish": "main pizza",
+    "cuisine": "italian"
+  },
+  {
+    "id": 31,
+    "name": "Caprese Pizza",
+    "cost": 5.25,
+    "image": "/images/dishes/italian/italian_7.png",
+    "day-of-the-week": "saturday",
+    "type-of-dish": "main pizza",
+    "cuisine": "italian"
+  },
+  {
+    "id": 32,
+    "name": "Capricciosa PIzza",
+    "cost": 6.15,
+    "image": "/images/dishes/italian/italian_8.png",
+    "day-of-the-week": "",
+    "type-of-dish": "main pizza",
+    "cuisine": "italian"
+  },
+  {
+    "id": 33,
+    "name": "Caprese Salad",
+    "cost": 5.15,
+    "image": "/images/dishes/italian/italian_9.png",
+    "day-of-the-week": "sunday",
+    "type-of-dish": "salad",
+    "cuisine": "italian"
+  },
+  {
+    "id": 34,
+    "name": "Tomato-Basil Salad",
+    "cost": 4.75,
+    "image": "/images/dishes/italian/italian_10.png",
+    "day-of-the-week": "",
+    "type-of-dish": "salad",
+    "cuisine": "italian"
+  },
+  {
+    "id": 35,
+    "name": "Panzanella Salad",
+    "cost": 4.55,
+    "image": "/images/dishes/italian/italian_11.png",
+    "day-of-the-week": "",
+    "type-of-dish": "salad",
+    "cuisine": "italian"
+  }
 ]
