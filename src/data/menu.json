@@ -223,5 +223,104 @@
         "day-of-the-week": "sunday",
         "type-of-dish": "salad",
         "cuisine": "ukrainian"
+    },
+    {
+        "id": 25,
+        "name": "Bagnun",
+        "cost": 3.35,
+        "image": "/images/dishes/italian/italian_1.png",
+        "day-of-the-week": "monday",
+        "type-of-dish": "soup",
+        "cuisine": "italian"
+    },
+    {
+        "id": 26,
+        "name": "Ginestrata",
+        "cost": 3.15,
+        "image": "/images/dishes/italian/italian_2.png",
+        "day-of-the-week": "",
+        "type-of-dish": "soup",
+        "cuisine": "italian"
+    },
+    {
+        "id": 27,
+        "name": "Minestrone",
+        "cost": 3.15,
+        "image": "/images/dishes/italian/italian_3.png",
+        "day-of-the-week": "tuesday",
+        "type-of-dish": "soup",
+        "cuisine": "italian"
+    },
+    {
+        "id": 28,
+        "name": "Pasta Carbonara",
+        "cost": 3.25,
+        "image": "/images/dishes/italian/italian_4.png",
+        "day-of-the-week": "wednesday",
+        "type-of-dish": "main pasta",
+        "cuisine": "italian"
+    },
+    {
+        "id": 29,
+        "name": "Pasta Bolognese",
+        "cost": 3.85,
+        "image": "/images/dishes/italian/italian_5.png",
+        "day-of-the-week": "thursday",
+        "type-of-dish": "main pasta",
+        "cuisine": "italian"
+    },
+    {
+        "id": 30,
+        "name": "Margherita Pizza",
+        "cost": 6.25,
+        "image": "/images/dishes/italian/italian_6.png",
+        "day-of-the-week": "friday",
+        "type-of-dish": "main pizza",
+        "cuisine": "italian"
+    },
+    {
+        "id": 31,
+        "name": "Caprese Pizza",
+        "cost": 5.25,
+        "image": "/images/dishes/italian/italian_7.png",
+        "day-of-the-week": "saturday",
+        "type-of-dish": "main pizza",
+        "cuisine": "italian"
+    },
+    {
+        "id": 32,
+        "name": "Capricciosa PIzza",
+        "cost": 6.15,
+        "image": "/images/dishes/italian/italian_8.png",
+        "day-of-the-week": "",
+        "type-of-dish": "main pizza",
+        "cuisine": "italian"
+    },
+    {
+        "id": 33,
+        "name": "Caprese Salad",
+        "cost": 5.15,
+        "image": "/images/dishes/italian/italian_9.png",
+        "day-of-the-week": "sunday",
+        "type-of-dish": "salad",
+        "cuisine": "italian"
+    },
+    {
+        "id": 34,
+        "name": "Tomato-Basil Salad",
+        "cost": 4.75,
+        "image": "/images/dishes/italian/italian_10.png",
+        "day-of-the-week": "",
+        "type-of-dish": "salad",
+        "cuisine": "italian"
+    },
+    {
+        "id": 35,
+        "name": "Panzanella Salad",
+        "cost": 4.55,
+        "image": "/images/dishes/italian/italian_11.png",
+        "day-of-the-week": "",
+        "type-of-dish": "salad",
+        "cuisine": "italian"
     }
 ]
