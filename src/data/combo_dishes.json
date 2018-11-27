@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Chinese Set Dinner №1",
+    "cost": 16,
+    "image": "/images/dishes/combo_dishes/chinese_combo_1.png"
+  },
+  {
+    "id": 2,
+    "name": "Chinese Set Dinner №2",
+    "cost": 15,
+    "image": "/images/dishes/combo_dishes/chinese_combo_2.png"
+  },
+  {
+    "id": 3,
+    "name": "Chinese Set Dinner №3",
+    "cost": 14,
+    "image": "/images/dishes/combo_dishes/chinese_combo_3.png"
+  },
+  {
+    "id": 4,
+    "name": "Ukrainian Set Dinner №1",
+    "cost": 15,
+    "image": "/images/dishes/combo_dishes/ukrainian_combo_1.png"
+  },
+  {
+    "id": 5,
+    "name": "Ukrainian Set Dinner №2",
+    "cost": 16,
+    "image": "/images/dishes/combo_dishes/ukrainian_combo_2.png"
+  },
+  {
+    "id": 6,
+    "name": "Ukrainian Set Dinner №3",
+    "cost": 13,
+    "image": "/images/dishes/combo_dishes/ukrainian_combo_3.png"
+  },
+  {
+    "id": 7,
+    "name": "Italian Set Dinner №1",
+    "cost": 14,
+    "image": "/images/dishes/combo_dishes/italian_combo_1.png"
+  },
+  {
+    "id": 8,
+    "name": "Italian Set Dinner №2",
+    "cost": 16,
+    "image": "/images/dishes/combo_dishes/italian_combo_2.png"
+  },
+  {
+    "id": 9,
+    "name": "Italian Set Dinner №3",
+    "cost": 15,
+    "image": "/images/dishes/combo_dishes/italian_combo_3.png"
+  }
+]
