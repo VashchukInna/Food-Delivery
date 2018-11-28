@@ -4,7 +4,6 @@ import {find} from 'lodash';
 import homePage from './pages/home/home.page';
 import menuPage from './pages/menu/menu.page';
 import comboPage from './pages/combo/combo.page';
-import createLunchPage from './pages/createLunch/createlunch.page';
 import contactsPage from './pages/contacts/contacts.page';
 import cartPage from './pages/cart/cart.page';
 import loginPage from './pages/login/login.page';
@@ -15,7 +14,6 @@ let pages = [
     homePage,
     menuPage,
     comboPage,
-    createLunchPage,
     contactsPage,
     cartPage,
     loginPage,

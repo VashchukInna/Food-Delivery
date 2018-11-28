@@ -80,3 +80,13 @@
     outline: none;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .login {
+    width: 227px;
+
+    &-input {
+      width: 214px;
+    }
+  }
+}
