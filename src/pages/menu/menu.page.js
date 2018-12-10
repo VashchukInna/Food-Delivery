@@ -32,8 +32,8 @@ class MenuPage extends Page {
             if (!food) {
                 return false
             }
-            const { id } = food;
-            const properties = (({ name, image, cost }) => ({ name, image, cost }))(food);
+            const {id} = food;
+            const properties = (({name, image, cost}) => ({name, image, cost}))(food);
             const cart = retrieveCart();
             await cart.set(id, properties);
             showMessage("Item added to cart", 'success');
@@ -136,13 +136,30 @@ class MenuPage extends Page {
             }
         });
 
-        fetchMenu({ foodCount: 20 }).then((result) => {
+        fetchMenu({foodCount: 20}).then((result) => {
             populateMenu(result, list)
                 .catch((error) => {
                     showMessage(error);
                 });
         });
 
+        // search by name of the dish
+        window.onload = function () {
+            let searchDishes = document.querySelector('#search-dishes'),
+                dishes = document.querySelectorAll('.raised.vertical.card'),
+                dishName = document.querySelectorAll('.food-name'),
+                searchVal;
+            searchDishes.addEventListener('keydown', function () {
+                searchVal = this.value.toLowerCase();
+                for (var i = 0; i < dishes.length; i++) {
+                    if (!searchVal || dishName[i].innerHTML.toLowerCase().indexOf(searchVal) > -1) {
+                        dishes[i].style['display'] = 'flex';
+                    } else {
+                        dishes[i].style['display'] = 'none';
+                    }
+                }
+            });
+        }
     }
 }
 
