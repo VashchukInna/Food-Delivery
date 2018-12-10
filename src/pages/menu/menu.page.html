@@ -1,4 +1,83 @@
-<div class="menu-page">
-    <ul class="horizontal-list">
-    </ul>
-</div>
+<div class="section">
+    <form action="#" method="get" class="search-form">
+        <input type="text" placeholder="Search for food" class="search">
+    </form>
+
+    <form action="#" method="get" onsubmit="search(); return false;" class="filter">
+        <div class="cuisene-content">
+            <div class="cuisene-title">Cuisine:</div>
+            <label class="container">ukrainian
+                <input type="checkbox" id="cuisene-ukrainian" name="cuisene-ukrainian" value="ukrainian" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">chinese
+                <input type="checkbox" id="cuisene-chinese" name="cuisene-chinese" value="chinese" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">italian
+                <input type="checkbox" id="cuisene-italian" name="cuisene-italian" value="italian" />
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div class="day-of-the-week-content">
+            <div class="day-of-the-week-title">Day of the week:</div>
+            <label class="container">monday
+                <input type="checkbox" id="day-of-the-week-monday" name="day-of-the-week-monday" value="monday" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">tuesday
+                <input type="checkbox" id="day-of-the-week-tuesday" name="day-of-the-week-tuesday" value="tuesday" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">wednesday
+                <input type="checkbox" id="day-of-the-week-wednesday" name="day-of-the-week-wednesday" value="wednesday" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">thursday
+                <input type="checkbox" id="day-of-the-week-thursday" name="day-of-the-week-thursday" value="thursday" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">friday
+                <input type="checkbox" id="day-of-the-week-friday" name="day-of-the-week-friday" value="friday" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">saturday
+                <input type="checkbox" id="day-of-the-week-saturday" name="day-of-the-week-saturday" value="saturday" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">sunday
+                <input type="checkbox" id="day-of-the-week-sunday" name="day-of-the-week-sunday" value="sunday" />
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div class="type-of-dish-content">
+            <div class="type-of-dish-title">Type of dish:</div>
+            <label class="container">soup
+                <input type="checkbox" id="type-of-dish-soup" name="type-of-dish-soup" value="soup" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">main
+                <input type="checkbox" id="type-of-dish-main" name="type-of-dish-main" value="main" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">salad
+                <input type="checkbox" id="type-of-dish-salad" name="type-of-dish-salad" value="salad" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">pasta
+                <input type="checkbox" id="type-of-dish-pasta" name="type-of-dish-pasta" value="pasta" />
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">pizza
+                <input type="checkbox" id="type-of-dish-pizza" name="type-of-dish-pizza" value="pizza" />
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="submit-button-filter"><input type="submit" value="Search" class="submit-button" /></div>
+    </form>
+    <div class="menu-page">
+        <ul class="horizontal-list">
+        </ul>
+    </div>

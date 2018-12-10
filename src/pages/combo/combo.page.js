@@ -12,7 +12,7 @@ class ComboPage extends Page {
 
     pageIsRendered = () => {
         let nav = document.querySelector('.combo-menu-page');
-        let list = document.querySelector('.horizontal-list');
+        let list = document.querySelector('.combo-list');
 
         const createCart = () => {
             if (!localStorage.cart) {
@@ -32,8 +32,8 @@ class ComboPage extends Page {
             if (!food) {
                 return false
             }
-            const {id} = food;
-            const properties = (({name, image, cost}) => ({name, image, cost}))(food);
+            const { id } = food;
+            const properties = (({ name, image, cost }) => ({ name, image, cost }))(food);
             const cart = retrieveCart();
             await cart.set(id, properties);
             showMessage("Item added to cart", 'success');
@@ -136,7 +136,7 @@ class ComboPage extends Page {
             }
         });
 
-        fetchMenu({foodCount: 20}).then((result) => {
+        fetchMenu({ foodCount: 20 }).then((result) => {
             populateMenu(result, list)
                 .catch((error) => {
                     showMessage(error);

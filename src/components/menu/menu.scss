@@ -74,8 +74,8 @@
           display: none;
           padding: 0;
           z-index: 1;
-          -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+          -webkit-box-shadow: 0 3px 12px #000000;
+          box-shadow: 0 3px 12px #000000;
           border-left: $border;
           border-bottom: $border;
           border-top: 1px solid #209A9C;;

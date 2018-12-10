@@ -169,4 +169,17 @@ footer {
   .ion-social-instagram:hover {
     color: #517fa4;
   }
+
+  .author-footer-link:link,
+  .author-footer-link:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+    &:hover, &:active {
+      color: #ddd;
+    }
+  }
 }
