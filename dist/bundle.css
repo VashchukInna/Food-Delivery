@@ -858,21 +858,21 @@ footer {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-.cuisene-content > label, .day-of-the-week-content > label, .type-of-dish-content > label {
+.cuisine-content > label, .day-of-the-week-content > label, .type-of-dish-content > label {
   display: block;
   cursor: pointer; }
 
-.cuisene-content, .day-of-the-week-content, .type-of-dish-content {
+.cuisine-content, .day-of-the-week-content, .type-of-dish-content {
   margin: 10px; }
-  .cuisene-content:not(.type-of-dish-content):after, .day-of-the-week-content:not(.type-of-dish-content):after, .type-of-dish-content:not(.type-of-dish-content):after {
+  .cuisine-content:not(.type-of-dish-content):after, .day-of-the-week-content:not(.type-of-dish-content):after, .type-of-dish-content:not(.type-of-dish-content):after {
     content: " ";
     display: block;
     border-bottom: 1px solid #d1dce2; }
 
-.cuisene-content {
+.cuisine-content {
   width: 145px; }
 
-.cuisene-title, .day-of-the-week-title, .type-of-dish-title {
+.cuisine-title, .day-of-the-week-title, .type-of-dish-title {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 16px; }

@@ -159,6 +159,47 @@ class MenuPage extends Page {
                     }
                 }
             });
+        };
+
+        // filter by cuisine, type of dish and day of the week
+        window.search = function search() {
+            let dishes = document.querySelectorAll('.raised.vertical.card');
+            let dishName = document.querySelectorAll('.food-name');
+            const filters = ["cuisine-ukrainian",
+                "cuisine-chinese",
+                "cuisine-italian",
+                "day-of-the-week-monday",
+                "day-of-the-week-tuesday",
+                "day-of-the-week-wednesday",
+                "day-of-the-week-thursday",
+                "day-of-the-week-friday",
+                "day-of-the-week-saturday",
+                "day-of-the-week-sunday",
+                "type-of-dish-soup",
+                "type-of-dish-main",
+                "type-of-dish-salad",
+                "type-of-dish-pasta",
+                "type-of-dish-pizza"]
+                .map((id) => document.getElementById(id))
+                .filter((el) => !!el && el.checked)
+                .map((el) => (item) => !!item.search[el.name])
+            for (let i = 0; i < dishes.length; i++) {
+                if (filter(menu, filters).map(_ => _.name) == dishName[i].innerHTML) {
+                    dishes[i].style['display'] = 'flex';
+                } else {
+                    dishes[i].style['display'] = 'none';
+                }
+            }
+        };
+
+        function filter(menu, filters) {
+            return menu.filter((item) => {
+                for (let i = 0; i < filters.length; i++) {
+                    if (filters[i](item)) continue;
+                    return false;
+                }
+                return true;
+            })
         }
     }
 }
