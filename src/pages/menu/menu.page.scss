@@ -18,7 +18,11 @@
     border-radius: 5px;
     box-shadow: none;
   }
-}
+}}
+
+.search:focus {
+  border: 1px solid #43824b;
+  box-shadow: 0 0 10px #719ECE;
 }
     
   .search[type='submit'] {
