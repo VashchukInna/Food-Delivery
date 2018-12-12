@@ -87,18 +87,15 @@ footer {
     margin-top: 20px;
   }
 
-  .row {
+  .footer-row {
     max-width: 1140px;
     margin: 0 auto;
   }
 
-  .row:before,
-  .row:after {
+  .footer-row:before,
+  .footer-row:after {
     content: "";
     display: table;
-  }
-
-  .row:after {
     clear: both;
   }
 
@@ -178,6 +175,7 @@ footer {
     -webkit-transition: color 0.2s;
     -o-transition: color 0.2s;
     transition: color 0.2s;
+
     &:hover, &:active {
       color: #ddd;
     }

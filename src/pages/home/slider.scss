@@ -20,10 +20,9 @@
 .header-text {
   color: #fff;
   font-size: 245%;
-  font-family: Merienda;
   word-spacing: 4px;
   letter-spacing: 1px;
-  margin-left: 210px;
+  margin-left: 265px;
   margin-top: 220px;
 }
 
@@ -104,5 +103,12 @@
   .arrow, .light .arrow {
     background-size: 10px;
     background-position: 10px 50%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header-text {
+    font-size: 103%;
+    margin-left: 58px;
   }
 }

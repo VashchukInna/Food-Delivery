@@ -1,6 +1,6 @@
 'use strict';
 
-import {find} from 'lodash';
+import { find } from 'lodash';
 import homePage from './pages/home/home.page';
 import menuPage from './pages/menu/menu.page';
 import comboPage from './pages/combo/combo.page';
@@ -23,6 +23,7 @@ let pages = [
 class Router {
     constructor(authorization) {
         this.authorization = authorization;
+        // get url of the window after the symbol #
         this.renderPage(window.location.hash);
     }
 
@@ -41,11 +42,13 @@ class Router {
         if (!this.authorization.giveAccessToUrl(url)) {
             return this.showHomePage();
         }
+
         if (url === '#/logout') {
             this.authorization.logout();
             return this.showHomePage();
         }
-        let findPages = find(pages, {url});
+
+        let findPages = find(pages, { url });
         if (!findPages) {
             findPages = homePage;
         }

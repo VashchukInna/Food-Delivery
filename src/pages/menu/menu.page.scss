@@ -123,7 +123,6 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  /* max-width: 122%; */
   width: 260px;
   height: 350px;
   -webkit-box-align: start;
@@ -521,6 +520,19 @@
 
   &:hover {
     background-color: #326437;
+  }
+}
+
+#pagination {
+  padding: 20px;
+  margin-left: 300px;
+
+  button {
+    width: 45px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    outline: none;
   }
 }
 

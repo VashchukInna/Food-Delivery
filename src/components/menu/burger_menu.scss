@@ -7,6 +7,7 @@
     text-align: center;
     height: 40px;
     z-index: 3;
+    margin-left: -32px;
 
     .check-menu {
       display: block;
@@ -83,6 +84,7 @@
     #user-menu {
       margin-top: 0;
       width: 902px;
+      margin-left: 10px;
 
       & li a {
         display: block;

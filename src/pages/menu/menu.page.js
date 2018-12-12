@@ -11,7 +11,6 @@ class MenuPage extends Page {
     }
 
     pageIsRendered = () => {
-        let nav = document.querySelector('.main-menu');
         let list = document.querySelector('.horizontal-list');
 
         const createCart = () => {
@@ -46,7 +45,7 @@ class MenuPage extends Page {
             }
             const cart = retrieveCart();
             await cart.delete(foodId);
-            showMessage("Item removed from cart", 'success');
+            showMessage('Item removed from cart', 'success');
             return resaveCart(cart);
         };
 
@@ -59,6 +58,8 @@ class MenuPage extends Page {
 
         const htmlToElement = (html) => {
             let template = document.createElement('template');
+
+            // removes whitespace from the beginning and end of the line
             html = html.trim();
             template.innerHTML = html;
             return template.content.firstChild;
@@ -73,7 +74,7 @@ class MenuPage extends Page {
         const populateMenu = (foodList, parentNode) => {
             return new Promise((resolve, reject) => {
                 if (foodList.length == 0) {
-                    return reject("No items match your search");
+                    return reject('No items match your search');
                 }
                 let item = '';
                 let buttonClass;
@@ -86,7 +87,7 @@ class MenuPage extends Page {
                         buttonClass = 'decline';
                         buttonText = 'Remove from cart';
                     }
-                    item += `<li class="raised vertical card">
+                    item += `<li class="raised vertical card" id="${elem.id}">
                               <div class="img-thumbnail"><img src=${elem.image} alt=${elem.name}></div>
                               <div class="vertical card-details">
                                 <h4 class="food-name">${elem.name}</h4>
@@ -103,14 +104,13 @@ class MenuPage extends Page {
             })
         };
 
-        const showMessage = (message, status = "failure") => {
+        const showMessage = (message, status = 'failure') => {
             if (document.querySelector('.pop-up')) {
                 hideMessage();
             }
             const elem = htmlToElement(`<div class="pop-up ${status}">
                   <p>${message}</p></div>`);
 
-            nav.after(elem);
             localStorage.setItem("msgTimeout", setTimeout(hideMessage, 2000));
         };
 
@@ -201,8 +201,108 @@ class MenuPage extends Page {
                 return true;
             })
         }
+
+        // pagination
+        let el = document.getElementById('pagination');
+
+        window.onload = function () {
+            let list = document.querySelectorAll('.raised.vertical.card');
+            for (let i = 0; i < list.length; i++) {
+                let start = 0;
+                let end = 11;
+                if (i > start && end > i) {
+                    list[i].style.display = "block";
+                } else {
+                    list[i].style.display = "none";
+                }
+            }
+        };
+
+        let getDishes = menu.length;
+
+        let service = {
+            getDishesCount: function () {
+                return getDishes;
+            },
+            getPagedData: function (pageNo, pageLength) {
+                let startOfRecord = (pageNo - 1) * pageLength;
+                let endOfRecord = startOfRecord + pageLength;
+                let pagedData = getDishes.slice(startOfRecord, endOfRecord);
+                return pagedData;
+            }
+        };
+
+        let pagination = {
+            currentPage: 1,
+            pageLength: 11,
+            totalRecords: 36,
+            render: function () {
+                this.totalRecords = service.getDishesCount();
+                let pages = Math.ceil(this.totalRecords / this.pageLength);
+                this.pages = pages;
+
+                let buttons = '';
+
+                for (let i = 1; i <= pages; i++) {
+                    buttons += this.getButton(i);
+                }
+
+                el.innerHTML = buttons;
+
+            },
+            getButton: function (dish) {
+                let classNames = 'pagination-btn';
+                if (this.currentPage == dish) {
+                    classNames += ' current-page';
+                }
+                let html = `
+                    <button id="btn-${dish}"
+                        class="${classNames}"
+                        type="button"
+                        onclick="gotoPage(this, ${dish})"
+                    >${dish}
+                    </button>
+                `;
+                return html;
+            },
+        };
+
+        window.gotoPage = function gotoPage(btn, pageNo) {
+            let start = 1;
+            let end = 11;
+            switch (pageNo) {
+                case 1:
+                    start = 1;
+                    end = 11;
+                    break;
+                case 2:
+                    start = 10;
+                    end = 21;
+                    break;
+                case 3:
+                    start = 20;
+                    end = 31;
+                    break;
+                case 4:
+                    start = 30;
+                    end = 41;
+                    break;
+            }
+
+            let list = document.querySelectorAll('.raised.vertical.card');
+            for (let i = 0; i < list.length; i++) {
+                if (i > start && end > i) {
+                    list[i].style.display = 'block';
+                } else {
+                    list[i].style.display = 'none';
+                }
+            }
+        };
+
+        pagination.render();
     }
 }
+
 
 const page = new MenuPage('#/menu');
 

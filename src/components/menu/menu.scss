@@ -4,6 +4,10 @@
 .wrapper-menu {
   height: $nav-height;
   background: $nav-background;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
 
   #check-menu {
     display: none;
@@ -20,11 +24,10 @@
     cursor: pointer;
 
     .logo {
-      height: 55px;
+      height: 54px;
       width: auto;
       float: left;
       margin-top: 6px;
-      padding: 0 5px 5px 5px;
     }
   }
 
@@ -78,7 +81,8 @@
           box-shadow: 0 3px 12px #000000;
           border-left: $border;
           border-bottom: $border;
-          border-top: 1px solid #209A9C;;
+          border-top: 1px solid #209A9C;
+          margin-left: -2px;
 
           li {
             min-width: 190px;

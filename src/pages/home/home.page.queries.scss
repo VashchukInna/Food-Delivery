@@ -1,6 +1,10 @@
 @media only screen and (max-width: 1200px) {
-  .row {
+  .footer-row {
     padding: 0 2%;
+  }
+
+  .meals-showcase {
+    margin-left: -16px;
   }
 }
 
@@ -8,12 +12,24 @@
   body {
     font-size: 18px;
   }
+
+  .meals-showcase {
+    margin-left: 39px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .header-text {
     font-size: 180%;
     margin-left: 160px;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .meals-showcase {
+    margin-left: 100px;
   }
 }
 
@@ -27,13 +43,17 @@
     margin-left: 100px;
   }
 
-  .row {
+  .footer-row {
     padding: 0 4%;
   }
 
   .col {
     width: 100%;
     margin: 0 0 4% 0;
+  }
+
+  footer {
+    width: 100%;
   }
 }
 
@@ -55,5 +75,9 @@
   .header-text {
     font-size: 103%;
     margin-left: 58px;
+  }
+
+  .meals-showcase {
+    margin-left: 31px;
   }
 }

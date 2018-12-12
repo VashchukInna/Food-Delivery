@@ -5,6 +5,10 @@ body {
   width: 100%;
 }
 
+#page {
+  margin-top: 60px;
+}
+
 @import './components/menu/menu.scss';
 @import './pages/home/home.page.scss';
 @import './pages/menu/menu.page.scss';

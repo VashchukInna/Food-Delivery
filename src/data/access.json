@@ -4,7 +4,7 @@
     "accessByExecutants": "adminAndUser"
   },
   {
-    "path": "#/aboutus",
+    "path": "#/about",
     "accessByExecutants": [
       "unauthorized",
       "admin",
@@ -21,14 +21,6 @@
   },
   {
     "path": "#/combo",
-    "accessByExecutants": [
-      "unauthorized",
-      "admin",
-      "user"
-    ]
-  },
-  {
-    "path": "#/createyourlunch",
     "accessByExecutants": [
       "unauthorized",
       "admin",
